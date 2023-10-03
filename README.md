@@ -38,28 +38,28 @@ To run the program using GitPod, follow these steps:
 ### For require():
  ```javascript
     let instance = await TokenExample.deployed()
-    instance.requireTokens(x) 
+    instance.requireTokens(_num) 
  ```
 ### For revert():
  ```javascript
-    instance.revertTokens(x)
+    instance.revertTokens(_num)
  ```
 ### For assert():
  ```javascript
-     instance.assertTokenBalance(x)
+     instance.assertTokenBalance(_num)
  ```
-
+Make sure to input a value to **_num**.
 ### To use this contract, you can follow the instructions below:
 
-**requireTokens function using require:**
+### requireTokens function using require:
 
 This function checks if the input _num is greater than 100 using the require statement. If _num is not greater than 100, it will revert the transaction with the specified error message.
 
-**revertTokens function using revert:**
+### revertTokens function using revert:
 
 This function checks if the input _num is less than or equal to 100. If it is, it will revert the transaction with the specified error message. If _num is greater than 100, it will return "Tokens Redeemed!"
 
-**assertTokenBalance function using assert:**
+### assertTokenBalance function using assert:
 
 This function uses the assert statement to ensure that _num is equal to 0. If _num is not equal to 0, it will trigger an assertion failure.
 
