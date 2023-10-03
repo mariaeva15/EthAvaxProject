@@ -20,19 +20,19 @@ To run the program using GitPod, follow these steps:
 
 2. Install Truffle: Run the following command to install Truffle globally: (https://github.com/trufflesuite/truffle)
 
-    npm install -g truffle
+    ```npm install -g truffle ```
     
-3. Start Truffle console in development mode: Use the following command to start the Truffle console in development mode 
+4. Start Truffle console in development mode: Use the following command to start the Truffle console in development mode 
     (Note: Ctrl + D to exit the Truffle development mode):
     
-    truffle develop
+    ``` truffle develop ```
     
-4. Compile and Migrate Contracts: In the Truffle console, execute the following commands to compile and migrate the contracts:
+5. Compile and Migrate Contracts: In the Truffle console, execute the following commands to compile and migrate the contracts:
 
-      compile
-      migrate
+       ```compile
+          migrate ```
   
-5. Test and Run the Functions require(), assert(), revert(): In the interactive Truffle console, run the following commands (replace "instance" with any variable name):
+6. Test and Run the Functions require(), assert(), revert(): In the interactive Truffle console, run the following commands (replace "instance" with any variable name):
 
 ### For require():
  ```javascript
@@ -52,14 +52,17 @@ To run the program using GitPod, follow these steps:
 
 **requireTokens function using require:**
 • This function checks if the input _num is greater than 100 using the require statement.
+
 • If _num is not greater than 100, it will revert the transaction with the specified error message.
 
 **revertTokens function using revert:**
 • This function checks if the input _num is less than or equal to 100. If it is, it will revert the transaction with the specified error message.
+
 • If _num is greater than 100, it will return "Tokens Redeemed!"
 
 **assertTokenBalance function using assert:**
 • This function uses the assert statement to ensure that _num is equal to 0.
+
 • If _num is not equal to 0, it will trigger an assertion failure.
 
 ### Authors
