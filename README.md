@@ -44,7 +44,7 @@ To run the program using GitPod, follow these steps:
  ```javascript
     instance.revertTokens(_num)
  ```
-#### For assert():
+### For assert():
  ```javascript
      instance.assertTokenBalance(_num)
  ```
