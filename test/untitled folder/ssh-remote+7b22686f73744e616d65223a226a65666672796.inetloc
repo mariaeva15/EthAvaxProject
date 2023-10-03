@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>vscode-remote://ssh-remote%2B7b22686f73744e616d65223a226a6566667279616e706f6c2d736f6c69646974797374612d63346e67773238753373642e7673732e676974706f642e696f222c2275736572223a226a6566667279616e706f6c2d736f6c69646974797374612d63346e6777323875337364227d/workspace/solidity_starter/migrations/.gitkeep</string>
+</dict>
+</plist>
