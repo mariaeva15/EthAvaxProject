@@ -19,6 +19,7 @@ To run the program using GitPod, follow these steps:
 #1. Install Node.js: Download and install from the https://nodejs.org.
 
 #2. Install Truffle: Run the following command to install Truffle globally: (https://github.com/trufflesuite/truffle)
+    bash 
     npm install -g truffle
     
 #3. Start Truffle console in development mode: Use the following command to start the Truffle console in development mode (Note: Ctrl + D to exit the Truffle development mode):
