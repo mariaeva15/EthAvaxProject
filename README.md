@@ -29,8 +29,8 @@ To run the program using GitPod, follow these steps:
     
 5. Compile and Migrate Contracts: In the Truffle console, execute the following commands to compile and migrate the contracts:
 
-       ```compile
-          migrate ```
+       ```compile ```
+       ```migrate ```
   
 6. Test and Run the Functions require(), assert(), revert(): In the interactive Truffle console, run the following commands (replace "instance" with any variable name):
 
@@ -51,19 +51,13 @@ To run the program using GitPod, follow these steps:
 ### To use this contract, you can follow the instructions below:
 
 **requireTokens function using require:**
-• This function checks if the input _num is greater than 100 using the require statement.
-
-• If _num is not greater than 100, it will revert the transaction with the specified error message.
+• This function checks if the input _num is greater than 100 using the require statement. If _num is not greater than 100, it will revert the transaction with the specified error message.
 
 **revertTokens function using revert:**
-• This function checks if the input _num is less than or equal to 100. If it is, it will revert the transaction with the specified error message.
-
-• If _num is greater than 100, it will return "Tokens Redeemed!"
+• This function checks if the input _num is less than or equal to 100. If it is, it will revert the transaction with the specified error message. If _num is greater than 100, it will return "Tokens Redeemed!"
 
 **assertTokenBalance function using assert:**
-• This function uses the assert statement to ensure that _num is equal to 0.
-
-• If _num is not equal to 0, it will trigger an assertion failure.
+• This function uses the assert statement to ensure that _num is equal to 0. If _num is not equal to 0, it will trigger an assertion failure.
 
 ### Authors
 Maria Evangelicalyn Ong
