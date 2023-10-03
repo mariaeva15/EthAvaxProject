@@ -16,29 +16,23 @@ Solidity smart contracts often need to enforce specific conditions to ensure the
 ### Running the Program
 To run the program using GitPod, follow these steps:
 
-#1. Install Node.js: Download and install from the https://nodejs.org.
+1. Install Node.js: Download and install from the https://nodejs.org.
 
-#2. Install Truffle: Run the following command to install Truffle globally: (https://github.com/trufflesuite/truffle)
+2. Install Truffle: Run the following command to install Truffle globally: (https://github.com/trufflesuite/truffle)
 
-    ```
     npm install -g truffle
-    ```
     
-#3. Start Truffle console in development mode: Use the following command to start the Truffle console in development mode 
+3. Start Truffle console in development mode: Use the following command to start the Truffle console in development mode 
     (Note: Ctrl + D to exit the Truffle development mode):
     
-     ```
     truffle develop
-     ```
     
-#4. Compile and Migrate Contracts: In the Truffle console, execute the following commands to compile and migrate the contracts:
+4. Compile and Migrate Contracts: In the Truffle console, execute the following commands to compile and migrate the contracts:
 
-     ```
       compile
       migrate
-     ```
   
-#5. Test and Run the Functions require(), assert(), revert(): In the interactive Truffle console, run the following commands (replace "instance" with any variable name):
+5. Test and Run the Functions require(), assert(), revert(): In the interactive Truffle console, run the following commands (replace "instance" with any variable name):
 
 ### For require():
  ```javascript
@@ -64,7 +58,7 @@ To run the program using GitPod, follow these steps:
 • This function checks if the input _num is less than or equal to 100. If it is, it will revert the transaction with the specified error message.
 • If _num is greater than 100, it will return "Tokens Redeemed!"
 
-** assertTokenBalance function using assert:**
+**assertTokenBalance function using assert:**
 • This function uses the assert statement to ensure that _num is equal to 0.
 • If _num is not equal to 0, it will trigger an assertion failure.
 
