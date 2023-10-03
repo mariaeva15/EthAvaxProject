@@ -29,8 +29,8 @@ To run the program using GitPod, follow these steps:
     
 5. Compile and Migrate Contracts: In the Truffle console, execute the following commands to compile and migrate the contracts:
 
-       `compile`
-       `migrate`
+        compile
+        migrate
 
   
 6. Test and Run the Functions require(), assert(), revert(): In the interactive Truffle console, run the following commands (replace "instance" with any variable name):
