@@ -59,7 +59,7 @@ This function checks if the input _num is greater than 100 using the require sta
 
 This function checks if the input _num is less than or equal to 100. If it is, it will revert the transaction with the specified error message. If _num is greater than 100, it will return "Tokens Redeemed!"
 
-### assertTokenBalance function using assert:
+#### assertTokenBalance function using assert:
 
 This function uses the assert statement to ensure that _num is equal to 0. If _num is not equal to 0, it will trigger an assertion failure.
 
