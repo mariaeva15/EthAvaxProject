@@ -1,5 +1,9 @@
+/* Project: Functions and Errors in ETH + AVAX Intermediate Course
+   by: Maria Evangelicalyn Ong
+*/
+
 // SPDX-License-Identifier: MIT
-// Compiler version must be greater than or equal to 0.8.17 and less than 0.9.0
+// Compiler version (greater than or equal to 0.8.17 and less than 0.9.0)
 pragma solidity ^0.8.17;
 
 contract TokenExample {
